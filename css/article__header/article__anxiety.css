@@ -1,0 +1,20 @@
+
+.article__anxiety__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+   
+}
+.article__anxiety {
+        display: flex;
+    gap: 24px;
+}
+
+
+@media screen and (max-width:414px) {
+    .article__anxiety {
+        flex-direction: column;
+    }
+    
+}

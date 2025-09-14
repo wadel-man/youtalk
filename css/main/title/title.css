@@ -1,0 +1,35 @@
+.title {
+    margin-top: 54px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: #333333;
+
+}
+
+.author__title {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #494949;
+    margin-bottom: 24px;
+}
+
+
+
+@media screen and (max-width:414px) {
+    .title {
+        font-size: 32px;
+        line-height: 40px;
+
+    }
+    }
+
+    @media screen and (max-width:320px) {
+    .title {
+        font-size: 24px;
+        line-height: 32px;
+
+    }
+    }

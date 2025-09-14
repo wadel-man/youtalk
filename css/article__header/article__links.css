@@ -1,0 +1,33 @@
+.article__links {
+    display: flex;
+   
+    flex-wrap: wrap;
+    width: 690px;
+    margin-bottom: 48px;
+    text-decoration: none;
+}
+.article__links__item {
+    list-style:none;
+    
+}
+.article__links__item a {
+    text-decoration: none;
+    color: #2963A3;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+.article__links__item:not(:last-child)::after {
+    content:"·";
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #2963A3;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .article__links {
+        display: none;
+    }
+    
+}

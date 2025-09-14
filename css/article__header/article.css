@@ -1,0 +1,32 @@
+
+
+.article__header {
+
+    margin-top: 24px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.article__text {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 24px;
+}
+
+.article__main__info {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+}
+.article__main__text li::marker {
+     color: #03B2A5;
+  font-size: 24px;
+}

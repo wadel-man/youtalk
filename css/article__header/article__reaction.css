@@ -1,0 +1,12 @@
+.article__reaction {
+    margin-top: 24px;
+    display: flex;
+    gap: 24px;
+}
+
+@media screen and (max-width:414px) {
+    .article__reaction {
+        flex-direction: column;
+    }
+    
+}

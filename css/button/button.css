@@ -1,0 +1,34 @@
+.header__btn {
+    width: 230px;
+    min-height: 48px;
+    background-color: #E3F5F5;
+    color: #03B2A5;
+    border:none;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Montserrat" ,sans-serif;
+}
+.header__burger-item {
+    display: none;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__form__email-button {
+        display: none;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+.header__btn {
+    display: none;
+    
+}
+}
+
+@media screen and (max-width:768px) {
+    .header__burger-item {
+        display: flex;
+    }
+}

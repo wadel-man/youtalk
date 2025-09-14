@@ -1,0 +1,15 @@
+
+
+.article__columns {
+display: flex;
+   
+    gap: 24px;
+    margin-top: 24px;
+}
+
+@media screen and (max-width:414px) {
+    .article__columns {
+        flex-direction: column;
+    }
+    
+}

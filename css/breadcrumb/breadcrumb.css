@@ -1,0 +1,39 @@
+.breadcrumb__items {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    
+    margin-top: 12px;
+
+}
+.breadcrumb__item {
+    color: #333333B2;
+    text-decoration: none;
+}
+.breadcrumb__item img {
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width:414px) {
+.breadcrumb__items {
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+    
+}
+
+
+@media screen and (max-width:320px) {
+.breadcrumb__items {
+    white-space: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+    
+}

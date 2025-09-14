@@ -1,0 +1,78 @@
+.hero__wrap {
+    margin-top: 24px;
+}
+.hero__content {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-bottom: 24px;
+
+}
+.hero__text li::marker {
+    color: #03B2A5;
+  font-size: 24px;
+}
+.hero__main__text {
+    font-weight: 500;
+    font-size: 16px;
+}
+.hero__text {
+    text-decoration: underline;
+    margin-left: 32px;
+line-height: 24px;
+color: #333333;
+
+}
+.subtext {
+    list-style:none;
+    text-decoration: underline;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #333333;
+}
+.one {
+    
+    padding-left: 56px;
+
+}
+.two {
+   
+    padding-left: 72px;
+}
+.three {
+ 
+    padding-left: 88px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .hero__main__text:nth-child(2),
+    .hero__main__text:nth-child(3),
+    .subtext,
+    .hero__main__text:nth-child(6) {
+        display: none;
+        
+    }
+    
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content {
+       grid-gap: 24px;
+       border-bottom: none;
+       
+        
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

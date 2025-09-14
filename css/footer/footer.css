@@ -1,0 +1,226 @@
+.footer {
+    background-color: #2963A3;
+    width: 100%;
+}
+
+.footer__layout {
+    max-width: 1440px;
+    padding: 0 120px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+
+.footer__menu {
+    display: flex;
+    gap: 93px;
+    margin-bottom: 24px;
+}
+
+.footer__list a {
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer__list {
+    display: grid;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    list-style: none;
+    row-gap: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.footer__form__title {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 8px;
+}
+.footer__form__text {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.25px;
+    color: #FFFFFF;
+
+
+}
+
+
+.footer__form__email-button {
+
+    position: absolute;
+    border: none;
+    border-radius: 4px;
+    left: 320px;
+    width: 64px;
+    cursor: pointer;
+}
+.footer__form__email-info {
+    width: 384px;
+    min-height: 48px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    padding: 14px 52px 14px 16px;
+}
+
+.footer__form__email-input {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.footer__form {
+    width: 486px;
+
+}
+
+
+.footer__bottom-list {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 48px;
+    padding-bottom: 17px;
+    list-style: none;
+}
+
+.footer__bottom-list a {
+    color: #FFFFFFb3;
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+    
+    
+}
+
+
+.footer__icons-social {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 40px;
+
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer__menu {
+        margin-bottom: 26px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        margin-bottom: 23px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer__form__email-info {
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .footer__form__email-info {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__form {
+        width: 450px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer__form {
+        width: 375px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        gap: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .footer__bottom-list {
+        padding-bottom: 37px;
+    }
+     
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer__layout  {
+        max-width: 1024px;
+        padding: 0 32px;
+        padding-top: 35px;
+        margin-top: 71px;
+    }
+    
+}
+/** Ipad mini **/
+@media screen and (max-width: 768px) {
+    .footer__layout {
+        max-width: 768px;
+        padding : 0 20px;
+        padding-top: 35px;
+    } 
+    
+}
+/** iphone 11 pro max**/
+@media  screen and (max-width: 414px) {
+.footer__layout {
+    max-width: 414px;
+    padding: 0 24px;
+    padding-top: 35px;
+
+}    
+}
+
+/** iphone se **/
+@media  screen and (max-width: 320px) {
+    .footer__layout {
+        max-width: 320px;
+        padding: 0 16px;
+        padding-top: 35px;
+        
+    
+    }
+    
+}
